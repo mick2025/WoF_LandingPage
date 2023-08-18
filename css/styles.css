@@ -1,0 +1,945 @@
+:root {
+  --color-primary: #a6c141;
+  --color-secondary: #f6f6f8;
+  --color-text-primary: #000;
+  --color-text-secondary: #fff;
+  --color-border: #c4c0c0;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+.textBlack400 {
+  color: var(--color-text-primary);
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3.4375rem; /* 220% */
+}
+
+.text800 {
+  font-style: normal;
+  font-weight: 800;
+}
+
+/* Hero */
+
+.photo-col {
+  padding: 0px;
+}
+
+.text-header {
+  color: var(--color-primary);
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.textBlack400 {
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3.4375rem; /* 220% */
+}
+
+.myhero-top-text {
+  color: #fff;
+  font-family: Lato;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3.5rem;
+  letter-spacing: 1px;
+  max-width: 35rem;
+}
+
+.myhero {
+  background-image: url(/images/TopBanner3.jpg);
+  background-size: cover;
+  min-height: 80vh;
+  position: relative;
+  color: var(--color-text-secondary);
+  overflow: hidden;
+}
+
+.myhero-top {
+  position: absolute;
+  top: 0;
+  height: 15%;
+}
+
+.myhero-bottom {
+  position: absolute;
+  top: 15%;
+  height: 85%;
+  /* text-align: center; */
+}
+
+.myhero-top-right {
+  text-align: right;
+  position: relative;
+  display: none;
+}
+
+.myhero-top-left {
+  text-align: center;
+}
+
+.myhero-top-text-left {
+  text-align: right;
+}
+
+.myhero-bottom-left {
+  position: relative;
+}
+
+.myhero-logo {
+  width: 14.75rem;
+
+  /* height: 4.125rem; */
+  margin-top: 0.75rem;
+  /* margin-left: 14rem; */
+}
+
+.myhero-top-right-content {
+  position: absolute;
+  top: 2.2rem;
+  right: 14rem;
+  width: 100%;
+}
+
+.myhero-top-text-left span {
+  margin-right: 2rem;
+}
+
+.myhero-top-text-right {
+  text-align: left;
+  border-left: 1px solid var(--color-secondary);
+}
+
+.myhero-top-text-right span {
+  margin-left: 2rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.color-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(0, 0, 0 0.2); */
+}
+
+.wof-image {
+  max-width: 25rem;
+  height: auto;
+  /* margin-left: 20rem; */
+}
+
+.text-partner {
+  color: var(--color-primary);
+  font-size: 3.6875rem;
+  margin-right: 1.06rem;
+}
+
+.text-with {
+  font-size: 1.8125rem;
+  margin-right: 1.06rem;
+}
+
+.text-netwell {
+  font-size: 2.75rem;
+}
+
+.myhero-content {
+  position: relative;
+  top: 30%;
+  text-align: center;
+  max-width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.myhereo-content-caption {
+  margin-top: 10%;
+}
+
+.myhero-reynolds {
+  position: absolute;
+  right: 30%;
+  top: 80%;
+}
+
+.reynolds {
+  font-size: 1.5rem;
+  margin-left: 0.44rem;
+}
+
+/* media queries */
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 799px) {
+  .myhero-top-right {
+    display: flex;
+  }
+
+  .myhero-top-left {
+    text-align: inherit;
+  }
+
+  .myhero-logo {
+    margin-left: 14rem;
+  }
+}
+
+@media (min-width: 1081px) {
+  .myhero-content {
+    margin-left: 0px;
+    margin-right: 0px;
+    left: 14rem;
+    margin-top: 5rem;
+  }
+
+  .myhereo-content-caption {
+    margin-top: 2%;
+  }
+
+  .text-partner {
+    font-size: 5.6875rem;
+  }
+
+  .text-with {
+    font-size: 3.8125rem;
+  }
+
+  .text-netwell {
+    font-size: 4.75rem;
+  }
+
+  .nametag {
+    display: inline;
+  }
+}
+
+/* Mission Section */
+
+.mission-text-header {
+  color: var(--color-text-secondary);
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 3rem;
+}
+
+.mission-verse {
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3.4375rem; /* 220% */
+}
+
+.mission {
+  padding: 0px;
+  background-color: var(--color-primary);
+  color: var(--color-text-secondary);
+  text-align: center;
+}
+
+.mission-text p {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mission-text-width {
+  max-width: 70rem;
+  margin-top: 1.8rem;
+  margin-bottom: 3rem;
+}
+
+/* Verses Section */
+
+.mobile {
+  display: inline;
+}
+
+.desktop {
+  display: none;
+}
+
+.main {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  /* background-color: #f2f2f2;   */
+}
+
+.verse-photo {
+  border-radius: 50% !important;
+  max-width: 100%;
+  margin-bottom: -1px;
+}
+
+.verse-content {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: var(--color-primary);
+  position: relative;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.img-col {
+  max-width: 500px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.img-col:after {
+  content: ""; /* This is necessary for the pseudo element to work. */
+  display: block; /* This will put the pseudo element on its own line. */
+  margin-left: 50%; /* This will center the border. */
+  width: 50%; /* Change this to whatever width you want. */
+  padding-top: 0px; /* This creates some space between the element and the border. */
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: var(--color-primary);
+}
+
+.img-col-alt {
+  max-width: 500px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.img-col-alt:after {
+  content: ""; /* This is necessary for the pseudo element to work. */
+  display: block; /* This will put the pseudo element on its own line. */
+  margin-right: 50%; /* This will center the border. */
+  width: 50%; /* Change this to whatever width you want. */
+  padding-top: 0px; /* This creates some space between the element and the border. */
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: var(--color-primary);
+}
+
+.quotes {
+  width: 6.5rem;
+  height: auto;
+}
+
+.close-quotes {
+  text-align: right;
+}
+
+.flipQuotes {
+  transform: rotate(180deg);
+}
+
+.verse-text {
+  text-align: center;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.verse-container {
+  width: 30rem;
+  position: absolute;
+  right: 0px;
+}
+
+.verse-container-alt {
+  width: 30rem;
+  position: absolute;
+  left: 0px;
+}
+
+.verse-source {
+  color: #737373;
+  font-family: Lato;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 3.4375rem;
+  text-align: center;
+}
+
+/* mobile */
+
+.mobile {
+  margin-top: 10rem !important;
+}
+
+.img-col-mobile div {
+  margin-bottom: 4rem;
+}
+
+.mobile-photo-container {
+  text-align: center;
+}
+
+.verse-photo-mobile {
+  border-radius: 50% !important;
+  max-width: 80%;
+}
+
+.mobile-verse-text {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mobile-separator:after {
+  content: ""; /* This is necessary for the pseudo element to work. */
+  display: block; /* This will put the pseudo element on its own line. */
+  margin-right: auto; /* This will center the border. */
+  margin-left: auto;
+  margin-bottom: 2.5rem;
+  width: 80%; /* Change this to whatever width you want. */
+  padding-top: 0px; /* This creates some space between the element and the border. */
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: var(--color-primary);
+}
+
+/* media queries */
+
+@media (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: block;
+  }
+}
+
+@media (min-width: 992px) {
+  .verse-container {
+    width: 40rem;
+  }
+
+  .verse-container-alt {
+    width: 40rem;
+  }
+
+  .quotes {
+    width: 8.5rem;
+  }
+}
+
+/* Sunshine Section */
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.photo-col {
+  padding: 0px;
+}
+
+.sunshine {
+  padding: 0px;
+  background-color: var(--color-secondary);
+}
+
+.sunshine-text {
+  text-align: center;
+  margin-top: 3.4rem;
+  margin-bottom: 3.3rem;
+}
+
+.sunshine-text p {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sunshine-text-width {
+  max-width: 70rem;
+  margin-top: 2.25rem;
+}
+
+/* Options Section */
+
+.paddingRemove {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.marginRemove {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#options-gob {
+  margin-top: 9rem;
+}
+
+.optionsContainer {
+  /* background-color: #f6f6f8; */
+  z-index: -2;
+}
+
+.optionLeft {
+  background-color: #fff;
+  z-index: 2;
+  text-align: center;
+}
+
+.optionRight {
+  background-color: #fff;
+  z-index: 2;
+  text-align: center;
+}
+
+.optionDivider {
+  visibility: hidden;
+}
+
+.optionDetails {
+  border: 2px solid var(--color-border);
+  margin-top: 3.7rem;
+  margin-bottom: 3.7rem;
+  z-index: 3;
+  text-align: center;
+}
+
+.options-details-header {
+  display: flex;
+  width: 23rem;
+  /* background-color: #f2f2f2; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.31rem;
+  margin-bottom: 4.6rem;
+}
+
+.options-details-header-text {
+  text-align: left;
+  margin-left: 1.31rem;
+}
+
+.options-details-header-image {
+  width: 3.8125rem;
+  height: auto;
+  margin-top: 1.3rem;
+}
+
+.option-title {
+  display: block;
+  font-size: 3.125rem;
+  font-weight: 900;
+}
+
+.option-subtitle {
+  font-size: 1.875rem;
+  font-weight: 400;
+}
+
+.option-price-box {
+  position: relative;
+  width: 19.8125rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-bottom: 0.3rem solid var(--color-primary);
+}
+
+.option-price-box-borderRight::after {
+  position: absolute;
+  content: ""; /* This is necessary for the pseudo element to work. */
+  display: block; /* This will put the pseudo element on its own line. */
+  right: 0;
+  height: 90%;
+
+  border-right-style: solid;
+  border-right-width: 0.3rem;
+  border-right-color: var(--color-primary);
+}
+
+.option-price-box-borderLeft::after {
+  position: absolute;
+  content: ""; /* This is necessary for the pseudo element to work. */
+  display: block; /* This will put the pseudo element on its own line. */
+  bottom: 0;
+  left: 0;
+
+  border-left-style: solid;
+  border-left-width: 0.3rem;
+  border-left-color: var(--color-primary);
+}
+
+.option-price-box-inner {
+  width: 14rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.81rem;
+}
+
+.option-price-box-inner div {
+  width: 100%;
+}
+
+.option-AslowAs {
+  font-size: 1.875rem;
+  font-weight: 400;
+  text-align: left;
+}
+
+.option-price {
+  font-size: 6.25rem;
+  font-weight: 400;
+  text-align: right;
+  margin-top: -1rem;
+  margin-bottom: -1rem;
+}
+
+.option-permonth {
+  font-size: 1.875rem;
+  font-weight: 400;
+  text-align: right;
+}
+
+.option-items-left {
+  margin-top: 2.44rem;
+  margin-bottom: 3.7rem;
+  line-height: 3.4375rem;
+}
+
+.option-items-right {
+  margin-top: 6.44rem;
+  margin-bottom: 7.2rem;
+  line-height: 3.4375rem;
+}
+
+.grnBorderContainer {
+  position: relative;
+}
+
+.bkgrnd-grn {
+  position: absolute;
+  top: 52rem;
+  width: 100%;
+  height: 21rem;
+  background-color: var(--color-primary);
+  z-index: 1;
+  display: none;
+}
+
+.gobLeft {
+  /* background-color: #f2f2f2; */
+  border-top: 2px solid var(--color-border);
+  border-bottom: 2px solid var(--color-border);
+  text-align: center;
+}
+
+.gobRight {
+  visibility: hidden;
+}
+
+.maturecouple {
+  max-width: 100%;
+}
+
+.gobPhotoContainer {
+  margin-left: 20.5rem;
+}
+
+#gobMain {
+  position: relative;
+}
+
+#gobBackground {
+  position: absolute;
+  top: 0px;
+  display: none;
+}
+
+.gobTextContent {
+  margin-bottom: 11.3rem;
+}
+
+.gobHeader {
+  font-size: 3.125rem;
+  font-weight: 800;
+  line-height: 150%;
+  color: var(--color-primary);
+  margin-top: 11.5rem;
+  margin-bottom: 3.3rem;
+}
+
+.gobPhotoMobile {
+  margin-bottom: 3.7rem;
+}
+
+.optionfooterTop {
+  height: 9rem;
+}
+
+/* media queries */
+
+@media (min-width: 992px) {
+  .bkgrnd-grn {
+    display: block;
+  }
+
+  #gobBackground {
+    position: absolute;
+    top: 0px;
+    display: block;
+  }
+
+  .gobPhotoContainer {
+    margin-left: 14.5rem;
+  }
+
+  .gobPhotoMobile {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .gobPhotoContainer {
+    margin-left: 17.5rem;
+  }
+
+  .gobHeader {
+    margin-top: 11.5rem;
+  }
+
+  .gobTextContent {
+    margin-bottom: 11.3rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .gobPhotoContainer {
+    margin-left: 20.5rem;
+  }
+
+  .gobHeader {
+    margin-top: 13.9rem;
+  }
+
+  .gobTextContent {
+    margin-bottom: 14.1rem;
+  }
+}
+
+@media (min-width: 1601px) {
+  .gobPhotoContainer {
+    margin-left: 20.5rem;
+  }
+
+  .gobHeader {
+    margin-top: 18.9rem;
+  }
+
+  .gobTextContent {
+    margin-bottom: 18.3rem;
+  }
+}
+
+/* Form Section */
+
+.formSection {
+  background-color: var(--color-secondary);
+}
+
+.form-control {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.formContainer {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.formHeader {
+  color: var(--color-primary);
+  font-size: 3.125rem;
+  font-weight: 900;
+}
+
+.formDisclaimer {
+  font-size: 1.0625rem;
+  font-weight: 400;
+  line-height: 3.4375rem;
+  margin-bottom: 2.75rem;
+}
+
+.formButton {
+  background-color: var(--color-primary);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5625rem;
+}
+
+.rightBottomMargin {
+  margin-bottom: 3rem;
+}
+.leftsideHeader {
+  margin-bottom: 8rem;
+}
+
+.rightsideHeader {
+  margin-bottom: 2.3rem;
+  margin-top: 3rem;
+}
+
+.netWellFamilyText {
+  font-size: 1.5625rem;
+  font-weight: 400;
+  line-height: 3.4375rem;
+  width: 80%;
+}
+
+.family-photos {
+  margin-top: 4rem;
+}
+
+.circlePhoto {
+  border-radius: 50%;
+}
+
+.img-father-son {
+  width: 14rem;
+  height: auto;
+}
+
+.img-family {
+  width: 13rem;
+  height: auto;
+}
+
+.fatherImageContainer {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.motherImageContainer {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+}
+
+#confirmRow {
+  display: none;
+}
+
+/* media queries */
+
+@media (min-width: 768px) {
+  .formContainer {
+    margin-left: 3.7rem;
+  }
+
+  .fatherImageContainer {
+    text-align: right;
+  }
+}
+
+@media (min-width: 992px) {
+  .rightContainer {
+    margin-left: initial;
+  }
+
+  .netWellFamilyText {
+    width: initial;
+  }
+}
+
+/* Footer Section */
+
+.footerTop {
+  height: 9rem;
+}
+
+.footer-logo {
+  width: 227px;
+  height: auto;
+  margin-top: 1.6rem;
+}
+
+.footerMain {
+  background-color: var(--color-secondary);
+  font-size: 1.5625rem;
+  font-weight: 400;
+  line-height: 3.4375;
+}
+
+.footerAddress::before {
+  position: relative;
+  content: "";
+  display: block;
+  background: url("/images/chevron-right-green.png") no-repeat;
+  width: 26px;
+  height: 26px;
+  float: left;
+  top: 1.35rem;
+  margin-right: 2rem;
+}
+
+.footerEmail::before {
+  position: relative;
+  content: "";
+  display: block;
+  background: url("/images/email-green.png") no-repeat;
+  width: 26px;
+  height: 26px;
+  float: left;
+  top: 1.35rem;
+  margin-right: 2rem;
+}
+
+.footerPhone::before {
+  position: relative;
+  content: "";
+  display: block;
+  background: url("/images/phone-green.png") no-repeat;
+  width: 26px;
+  height: 26px;
+  float: left;
+  top: 1.35rem;
+  margin-right: 2rem;
+}
+
+.footerBottom {
+  background-color: var(--color-primary);
+  color: var(--color-text-secondary);
+  font-size: 1.5625rem;
+  font-weight: 400;
+  line-height: 3.4375rem;
+}
+
+.footerBottomContent {
+  margin-top: 2.5rem;
+  margin-bottom: 2.8rem;
+}
+
+/* media queries */
+
+@media (min-width: 768px) {
+  .footer-logo {
+    margin-top: 6rem;
+  }
+}
